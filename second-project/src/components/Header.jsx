@@ -9,7 +9,7 @@ function Header() {
     const {isOpen,onOpen,onClose} = useDisclosure()
 
   return <>
-    <Button pos={'fixed'} top={'4'} left={'4'} colorScheme={'blue'} p={'0'} w={'10'} h={'10'} borderRadius={"full"} onClick={onOpen} >
+    <Button pos={'fixed'} top={'4'} zIndex={'overlay'} left={'4'} colorScheme={'blue'} p={'0'} w={'10'} h={'10'} borderRadius={"full"} onClick={onOpen} >
         <BiMenuAltLeft size={'20'} />
     </Button>
     <Drawer isOpen={isOpen} placement="left" onClose={onClose} >
