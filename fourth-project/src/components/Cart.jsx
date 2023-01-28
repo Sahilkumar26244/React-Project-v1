@@ -86,7 +86,7 @@ const CartItem = ({
       <button onClick={() => increment(id)}>+</button>
     </div>
 
-    <AiFillDelete onClick={() => deleteHandler(id)} />
+    <AiFillDelete  onClick={() => deleteHandler(id)} />
   </div>
 );
 
