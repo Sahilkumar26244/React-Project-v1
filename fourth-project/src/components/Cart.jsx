@@ -6,6 +6,8 @@ const Cart = () => {
   const { cartItems, subTotal, tax, shipping, total } = useSelector(
     (state) => state.cart
   );
+  console.log(cartItems)
+
   const dispatch = useDispatch();
 
   const increment = (id) => {
