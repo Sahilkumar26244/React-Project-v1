@@ -24,22 +24,21 @@ function App() {
     };
   }, [ratio]);
 
-  return ratio < 2 ? (
+  return (
     <>
-      <HeaderPhone menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+    <HeaderPhone menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Home ratio={ratio} />
+      <Services />
       <Work />
       <Timeline />
-      <Services />
-      <Testimonial />
+      
+      {/* <Testimonial /> */}
       <Contact />
       <Footer />
       <Toaster />
     </>
-  ) : (
-    <em id="customMessage">Please Change the ratio to View!</em>
-  );
+  )
 }
 
 export default App;

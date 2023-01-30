@@ -1,21 +1,23 @@
 import React from "react";
 import {
   AiFillGithub,
-  AiFillInstagram,
-  AiFillYoutube,
+  AiFillLinkedin,
+  AiFillTwitterSquare,
   AiOutlineArrowUp,
 } from "react-icons/ai";
+
+import my from '../assets/react1.jpg';
 
 const Footer = () => {
   return (
     <footer>
       <div>
         <img
-          src={"https://avatars.githubusercontent.com/u/25058652"}
+          src={my}
           alt="Founder"
         />
 
-        <h2>Abhishek Singh</h2>
+        <h2>Sahil Kumar</h2>
         <p>Motivation is temporary, but discipline last forever.</p>
       </div>
 
@@ -23,13 +25,13 @@ const Footer = () => {
         <h2>Social Media</h2>
 
         <article>
-          <a href="https://youtube.com/6packprogrammer" target={"blank"}>
-            <AiFillYoutube />
+          <a href="https://twitter.com/SahilKu02860412" target={"blank"}>
+            <AiFillTwitterSquare />
           </a>
-          <a href="https://instagram.com/meabhisingh" target={"blank"}>
-            <AiFillInstagram />
+          <a href="https://www.linkedin.com/in/sahil-kumar-923694233/?originalSubdomain=in" target={"blank"}>
+            <AiFillLinkedin />
           </a>
-          <a href="https://github.com/meabhisingh" target={"blank"}>
+          <a href="https://github.com/Sahilkumar26244" target={"blank"}>
             <AiFillGithub />
           </a>
         </article>

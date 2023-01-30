@@ -2,7 +2,8 @@
     min-height: 90vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
-  
+    border-top: 6px solid $color5;
+    border-bottom: 6px solid $color5;
     > section {
       background-color: #fef2f2;
       width: 100%;
